@@ -1,7 +1,8 @@
-fetch(`https://api.example.com/data`)
-  .then(response => response.json())
-  .then(data => {
-    console.log(data);
-  })
-  .catch(error => {console.log("Erreur lors de la récup des données :", error);
+let button = document. querySelector("button")
+let color = document.querySelector("input")
+let body = document.querySelector("body")
+
+button.addEventListener('click', function(){
+  body.style.background = color.value
 })
+
