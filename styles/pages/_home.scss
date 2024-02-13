@@ -1,0 +1,9 @@
+.wrapper{
+    max-width: 1000px;
+    @include absmiddle;
+    background-color: #fff;
+    padding: 50px;
+}
+.middle{
+    text-align: center;
+}
